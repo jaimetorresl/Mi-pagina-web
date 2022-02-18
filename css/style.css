@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  #welcome {
+    position: relative;
+  }
+  
+  #header .container li a:hover {
+    margin-top: 3px;
+    text-decoration: underline;
+  }
+  
+  #welcome .carousel-inner img {
+    max-height: 85vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+  }
+  
+  #carousel {
+    position: relative;
+  }
+  
+  #carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--gray1);
+    color: white;
+  }
+  
+  #carousel .overlay .container,
+  #carousel .overlay .row {
+    height: 100%;
+  }
+  
+  #carousel #text .container-fluid {
+    filter: grayscale(70%);
+    background-color: var(--gray1);
+    padding: 10px 10px 10px 10px;
+    color: white;
+  }
+
+  .icono {
+    width: 29px;
+    height: 29px;
+  }
+  
